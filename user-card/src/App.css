@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #ecf4f3;
 }
 
 .App-logo {
@@ -9,7 +10,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #57a99a;
   min-height: 15vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +25,32 @@
 }
 
 .Usercard {
-  background-color: lightgray;
+  background-color: #76dbd1;
+  width: 75%;
+  margin: 3% 8% 3% 9%;
+  padding: 3%;
+  border-radius: 15px;
 }
 .Followercard {
   background-color: antiquewhite;
+}
+.Upblock {
+  display: flex;
+  width: 80%;
+  margin: 0 10% 5% 10%;
+}
+.Upblock img {
+  border-radius: 15px;
+  width: 50%;
+}
+.Uptext {
+  margin: 0 5% 0 12%;
+  background-color: #d1eecc;
+  padding: 3%;
+  border-radius: 15px;
+}
+.Gittable {
+  background-color: white;
+  padding: 3%;
+  border-radius: 15px;
 }
