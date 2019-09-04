@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background-color: #ecf4f3;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #112d4e;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Usercard {
+  background-color: #3f72af;
+  width: 75%;
+  margin: 2% 8% 3% 9%;
+  padding: 3%;
+  border-radius: 15px;
+}
+.Followercard {
+  width: 80%;
+  margin: 0 10% 5% 10%;
+}
+.Upblock {
+  display: flex;
+  width: 80%;
+  margin: 0 10% 5% 10%;
+}
+.Upblock img {
+  border-radius: 15px;
+  width: 50%;
+}
+.Uptext {
+  margin: 0 5% 0 12%;
+  background-color: #f9f7f7;
+  padding: 3%;
+  border-radius: 15px;
+}
+.Gittable {
+  background-color: #f9f7f7;
+  padding: 3%;
+  border-radius: 15px;
+}
+.Follblock {
+  display: flex;
+  background-color: #3f72af;
+  border-radius: 15px;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+.Follblock img {
+  width: 30%;
+  padding-left: 10%;
+
+}
+.Folltext {
+  background-color: #f9f7f7;
+  border-radius: 15px;
+  padding: 3%;
+  margin-left: 10%;
+  width: 40%;
+}
