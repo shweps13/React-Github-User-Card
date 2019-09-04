@@ -8,7 +8,8 @@ class App extends React.Component {
     constructor() {
     super()
     this.state = {
-        cards : []
+        cards : [],
+        followers : []
     };
 }
 
@@ -17,7 +18,12 @@ class App extends React.Component {
     fetch("https://api.github.com/users/shweps13")
       .then(res => res.json())
       .then(res => this.setState({cards : res}))
-      .catch(err => console.log("Something goes wrong"));
+      .catch(err => console.log("Something goes wrong with main request"));
+    fetch("https://api.github.com/users/shweps13/followers")
+      .then(res => res.json())
+      .then(res => console.log(res))
+      .then(res => this.setState({followers : res}))
+      .catch(err => console.log("Something goes wrong with followers"));
   }
 
 
