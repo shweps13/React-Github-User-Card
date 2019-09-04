@@ -38,7 +38,9 @@ class App extends React.Component {
       <header className="App-header">
         <h2>Github Usercard App</h2>
       </header>
+        <h1>Github user card</h1>
       <Usercard cards={this.state.cards}/>
+        <h1>Followers list</h1>
       <Followercard followers={this.state.followers} />
     </div>
   );
